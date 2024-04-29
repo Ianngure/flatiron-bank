@@ -21,7 +21,7 @@ header{
     align-items: center;
     padding: 10px 120px;
     gap: 5px;
-    background-color: #30582d;
+    background-color: #660202;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 header img{
@@ -63,8 +63,8 @@ header h1{
 }
 .transaction_form button {
     
-    color: #2d2e2e;
-    border: 1px solid #2d2e2e;
+    color: #22dfdf;
+    border: 1px solid #31ecec;
     padding: 8px;
     border-radius: 8px;
     cursor: pointer;
@@ -97,6 +97,6 @@ header h1{
     padding-top: 12px;
     padding-bottom: 12px;
     text-align: left;
-    background-color: #30582d;
+    background-color: #eb0b0b;
     color: #fff;
 }
