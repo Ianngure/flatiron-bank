@@ -1,0 +1,102 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+
+/* Global styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 120px;
+    gap: 5px;
+    background-color: #30582d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header img{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+header h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+/* Add New Transaction */
+.transaction_form{
+    max-width: 400px;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.transaction_form label{
+    text-align: left;
+    display: block;
+}
+.transaction_form h2{
+    font-size: 1.15rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.transaction_form input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+}
+.transaction_form button {
+    
+    color: #2d2e2e;
+    border: 1px solid #2d2e2e;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Transactions */
+.transactions_content h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    color: #2d2e2e;
+    font-weight: 500;
+}
+.transactions_table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.transactions_table td, .transactions_table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+.transactions_table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+.transactions_table tr:hover {
+    background-color: #ddd;
+}
+.transactions_table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #30582d;
+    color: #fff;
+}
